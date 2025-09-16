@@ -77,7 +77,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-lg font-semibold tracking-tight">Quad Bikes</h3>
               <p className="mt-2 text-sm text-white/80 uppercase tracking-wide leading-relaxed">
-                Lorem ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text since the 1500s.
+                Lorem ipsum is simply dummy text of the printing and typesetting industry. It has been the industry&apos;s standard dummy text since the 1500s.
               </p>
             </div>
           </div>

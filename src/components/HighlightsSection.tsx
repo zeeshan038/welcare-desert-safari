@@ -14,7 +14,7 @@ export default function HighlightsSection() {
           </h2>
           <p className="mt-4 max-w-md text-white/80 uppercase tracking-wide leading-relaxed text-sm">
             Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has
-            Been The Industry's Standard Dummy Text Ever Since The 1500s
+            Been The Industry&apos;s Standard Dummy Text Ever Since The 1500s
           </p>
 
           <div className="mt-8">
