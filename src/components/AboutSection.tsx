@@ -29,7 +29,7 @@ export default function AboutSection() {
 
       <div className="relative z-10 mx-auto grid max-w-6xl grid-cols-1 gap-10 px-4 text-white md:grid-cols-12">
         
-        <div className="md:col-span-5 flex flex-col gap-6">
+        <div className="hidden md:flex md:col-span-5 flex-col gap-6">
           
           <div className="grid grid-cols-2 gap-6 items-stretch h-64 md:h-72">
             <div className="rounded-xl border border-white/10 bg-black/40 p-6 backdrop-blur h-full">

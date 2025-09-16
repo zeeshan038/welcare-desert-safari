@@ -53,7 +53,11 @@ export default function FAQSection() {
                     aria-controls={`faq-panel-${idx}`}
                   >
                     <span className="font-semibold">{item.q}</span>
-                    <span className={`inline-flex h-7 w-7 items-center justify-center rounded-full border border-yellow-400 text-yellow-400 transition-transform ${isOpen ? "rotate-45" : "rotate-0"}`}>+</span>
+                    <span
+                      className={`inline-flex shrink-0 aspect-square h-7 w-7 items-center justify-center rounded-full border border-yellow-400 text-yellow-400 leading-none transition-transform ${isOpen ? "rotate-45" : "rotate-0"}`}
+                    >
+                      +
+                    </span>
                   </button>
                   <div
                     id={`faq-panel-${idx}`}

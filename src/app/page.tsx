@@ -1,3 +1,4 @@
+import Link from "next/link";
 import AboutSection from "../components/AboutSection";
 import HighlightsSection from "../components/HighlightsSection";
 import GallerySection from "../components/GallerySection";
@@ -27,6 +28,22 @@ export default function Home() {
             Experience dune bashing, sandboarding, and unforgettable sunsets in a
             powerful Nissan Patrol.
           </p>
+          <div className="mt-6 flex items-center gap-3">
+            <Link
+              href="#services"
+              className="inline-flex items-center gap-2 rounded-full bg-yellow-500 px-6 py-3 font-medium text-black shadow hover:bg-yellow-400 transition"
+            >
+              Explore
+            </Link>
+            <a
+              href="https://wa.me/0000000000?text=Hi%20I%27d%20like%20to%20book%20a%20desert%20safari"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-6 py-3 font-medium text-white hover:bg-white/15 transition"
+            >
+              Book Now
+            </a>
+          </div>
         </div>
       </header>
 
