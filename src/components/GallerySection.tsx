@@ -42,9 +42,9 @@ export default function GallerySection() {
                 grabCursor
                 breakpoints={{
                   640: { slidesPerView: 2 },
-                  768: { slidesPerView: 2 },
-                  1024: { slidesPerView: 2 },
-                  1280: { slidesPerView: 2 },
+                  768: { slidesPerView: 2.5 },
+                  1024: { slidesPerView: 3 },
+                  1280: { slidesPerView: 3.5 },
                 }}
                 className="!px-0"
               >
