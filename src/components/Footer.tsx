@@ -50,7 +50,7 @@ export default function Footer() {
             <li className="flex items-start gap-3">
               <span className="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full bg-yellow-500/20 text-yellow-400">✉️</span>
               <span>Mail us<br/>
-                <a href="mailto:info@example.com" className="text-white/70 hover:text-yellow-400 transition">info@example.com</a>
+                <a href="mailto:Imran@wellcareevent.com" className="text-white/70 hover:text-yellow-400 transition">Imran@wellcareevent.com</a>
               </span>
             </li>
             <li className="flex items-start gap-3">

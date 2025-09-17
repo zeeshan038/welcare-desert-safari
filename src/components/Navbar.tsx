@@ -52,7 +52,7 @@ export default function Navbar() {
                     <div className="flex items-center gap-3">
                         {/* Social icons inline with telephone */}
                         <a
-                            href="https://instagram.com/yourhandle"
+                            href="https://www.instagram.com/wellcaredesertsafariuae?igsh=MXNwb2dxZWRnb2U3OQ=="
                             target="_blank"
                             rel="noreferrer noopener"
                             aria-label="Instagram"
@@ -64,7 +64,7 @@ export default function Navbar() {
                             </svg>
                         </a>
                         <a
-                            href="https://www.tiktok.com/@yourhandle"
+                            href="https://tiktok.com/@wellcare_desertsafariuae"
                             target="_blank"
                             rel="noreferrer noopener"
                             aria-label="TikTok"
@@ -75,6 +75,7 @@ export default function Navbar() {
                                 <path d="M14.5 2c.4 2.2 2 3.9 4.2 4.3.4.1.8.1 1.3.1V9c-1.6 0-3.1-.5-4.3-1.4v6.1c0 3.6-2.9 6.3-6.5 6.3S2.7 17.3 2.7 13.7C2.7 10 5.6 7.3 9.2 7.3c.5 0 1 .1 1.5.2v3.2c-.5-.2-1-.3-1.5-.3-2 0-3.6 1.6-3.6 3.5s1.6 3.5 3.6 3.5 3.6-1.6 3.6-3.5V2h1.7Z"/>
                             </svg>
                         </a>
+             
                         <a
                             href="tel:+0000000000"
                             aria-label="Call now"
