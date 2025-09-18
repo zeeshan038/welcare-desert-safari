@@ -44,7 +44,7 @@ export default function Footer() {
             <li className="flex items-start gap-3">
               <span className="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full bg-yellow-500/20 text-yellow-400">📞</span>
               <span>Call us<br/>
-                <a href="tel:+0000000000" className="text-white/70 hover:text-yellow-400 transition">+00 000 000000</a>
+                <a href="tel:+971501488044" className="text-white/70 hover:text-yellow-400 transition">+971 50 148 8044</a>
               </span>
             </li>
             <li className="flex items-start gap-3">

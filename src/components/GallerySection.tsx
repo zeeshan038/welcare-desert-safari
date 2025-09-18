@@ -7,10 +7,19 @@ import "swiper/css/free-mode";
 
 export default function GallerySection() {
   const images = [
-    { src: "/images/header.webp", alt: "Desert vista" },
-    { src: "/images/camel-safari.jpg", alt: "Falcon handler" },
-    { src: "/images/quad-biked.jpeg", alt: "Quad bike on dunes" },
-    { src: "/images/header.webp", alt: "Sunset photographer" },
+    { src: "/images/image-10.jpeg", alt: "Desert vista" },
+    { src: "/images/image-11.jpeg", alt: "Falcon handler" },
+    { src: "/images/image-12.jpeg", alt: "Quad bike on dunes" },
+    { src: "/images/image-13.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-14.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-15.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-21.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-22.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-23.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-24.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-30.jpeg", alt: "Sunset photographer" },
+    { src: "/images/image-32.jpeg", alt: "Sunset photographer" },
+     
   ];
 
   return (

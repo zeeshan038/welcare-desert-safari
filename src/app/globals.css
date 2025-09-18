@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+/* Global CSS for WhatsApp ringing animation */
+@keyframes wa-ping {
+  0% { transform: scale(0.6); opacity: 0.6; }
+  70% { transform: scale(1.6); opacity: 0.1; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+
+.wa-ring {
+  position: fixed;
+}
+
+.wa-ring::before,
+.wa-ring::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgba(16, 185, 129, 0.5); /* Tailwind green-500 with opacity */
+  z-index: -1;
+  animation: wa-ping 1.8s ease-out infinite;
+}
+
+.wa-ring::after {
+  animation-delay: 0.9s;
+}

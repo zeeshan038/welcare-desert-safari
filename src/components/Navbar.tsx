@@ -77,7 +77,7 @@ export default function Navbar() {
                         </a>
              
                         <a
-                            href="tel:+0000000000"
+                            href="tel:+971501488044"
                             aria-label="Call now"
                             title="Call"
                             className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/10 hover:bg-white/15 transition"

@@ -34,11 +34,11 @@ export default function RootLayout({
         </main>
         {/* Floating WhatsApp button (sticks to bottom-right) */}
         <a
-          href="https://wa.me/0000000000?text=Hi%20I%27d%20like%20to%20book%20a%20desert%20safari"
+          href="https://wa.me/971501488044?text=Hi%20I%27d%20like%20to%20book%20a%20desert%20safari"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat on WhatsApp"
-          className="fixed bottom-4 right-4 z-[60] inline-flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-xl shadow-green-900/20 ring-1 ring-white/20 hover:bg-green-400 transition focus:outline-none focus:ring-2 focus:ring-white/60"
+          className="wa-ring fixed bottom-4 right-4 z-[60] inline-flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-xl shadow-green-900/20 ring-1 ring-white/20 hover:bg-green-400 transition focus:outline-none focus:ring-2 focus:ring-white/60"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-7 w-7" fill="currentColor" aria-hidden>
             <path d="M20.52 3.48A11.78 11.78 0 0 0 12.01 0C5.73 0 .64 5.09.64 11.36c0 2 .54 3.96 1.58 5.68L0 24l7.17-2.16a11.3 11.3 0 0 0 4.84 1.08h.01c6.28 0 11.37-5.09 11.37-11.36 0-3.04-1.19-5.89-3.37-8.08ZM12.02 21.2h-.01a9.9 9.9 0 0 1-4.75-1.21l-.34-.18-4.25 1.28 1.28-4.14-.2-.34a9.86 9.86 0 0 1-1.5-5.25c0-5.46 4.45-9.9 9.93-9.9 2.65 0 5.14 1.03 7.02 2.9a9.84 9.84 0 0 1 2.91 7.01c0 5.46-4.45 9.93-10.09 9.93Zm5.75-7.38c-.31-.15-1.81-.9-2.09-1-.28-.1-.48-.15-.68.15-.2.3-.78 1-.95 1.2-.17.2-.35.22-.65.07-.31-.15-1.31-.48-2.5-1.54-.92-.82-1.54-1.83-1.72-2.13-.17-.3-.02-.46.13-.61.14-.14.31-.35.47-.52.16-.17.21-.3.31-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.64-.93-2.24-.24-.58-.49-.5-.68-.5-.17-.01-.37-.01-.57-.01-.2 0-.52.08-.79.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.09 4.49.71.31 1.26.49 1.69.62.71.22 1.36.19 1.87.11.57-.08 1.81-.74 2.07-1.46.26-.72.26-1.34.18-1.46-.08-.12-.28-.2-.59-.36Z" />

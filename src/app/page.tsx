@@ -13,7 +13,7 @@ export default function Home() {
       <header
         className="relative h-[80vh] w-full"
         style={{
-          backgroundImage: "url('/images/header.webp')",
+          backgroundImage: "url('/images/header-2.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -36,7 +36,7 @@ export default function Home() {
               Explore
             </Link>
             <a
-              href="https://wa.me/0000000000?text=Hi%20I%27d%20like%20to%20book%20a%20desert%20safari"
+              href="https://wa.me/971501488044?text=Hi%20I%27d%20like%20to%20book%20a%20desert%20safari"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-6 py-3 font-medium text-white hover:bg-white/15 transition"
