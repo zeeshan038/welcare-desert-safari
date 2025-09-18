@@ -20,8 +20,9 @@ export default function Footer() {
         <div className="md:col-span-4">
           <h3 className="text-2xl font-extrabold">Desert Safari</h3>
           <p className="mt-4 text-sm text-white/80 leading-relaxed max-w-sm">
-            Porttitor eget dolor morbi non arcu risus quis. Morbi tristique senectus et netus et malesuada fames.
-            Montes nascetur ridiculus mus mauris. Sollicitudin tempor id eu nisl. Massa enim nec dui nunc mattis.
+            WellCare Desert Safari offers unforgettable adventures in Dubai — dune bashing in 4x4s,
+            camel rides, sandboarding, and a traditional Bedouin camp with BBQ dinner and live shows.
+            Hotel pickup/drop‑off, licensed guides, and fully insured vehicles for your peace of mind.
           </p>
         </div>
 

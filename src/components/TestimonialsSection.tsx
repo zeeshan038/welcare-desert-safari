@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 const TESTIMONIALS = [
   {
     text:
-      "Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Facilisis magna etiam tempor orci eu lobortis. Faucibus interdum posuere lorem ipsum.",
+      "The dune bashing was incredible and the guide was very professional. BBQ dinner was tasty and the fire show was a highlight!",
     name: "Daniyal Ali",
     role: "Guest",
     avatar: "/next.svg",
@@ -17,7 +17,7 @@ const TESTIMONIALS = [
   },
   {
     text:
-      "Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Facilisis magna etiam tempor orci eu lobortis. Faucibus interdum posuere lorem ipsum.",
+      "Great value for money. Pickup on time, clean car, and the team took amazing photos during sunset. Highly recommend!",
     name: "Catherine Robinson",
     role: "Traveler",
     avatar: "/vercel.svg",
@@ -25,7 +25,7 @@ const TESTIMONIALS = [
   },
   {
     text:
-      "Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Facilisis magna etiam tempor orci eu lobortis. Faucibus interdum posuere lorem ipsum.",
+      "Camel ride, sandboarding, and shows were all well organized. Staff were friendly and safety‑conscious throughout.",
     name: "Austin Davis",
     role: "Adventurer",
     avatar: "/window.svg",

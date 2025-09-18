@@ -36,7 +36,7 @@ export default function AboutSection() {
               <div className="mb-3 h-10 w-10 flex items-center justify-center rounded-full bg-yellow-500/20 text-yellow-400">🐪</div>
               <h3 className="text-lg font-semibold tracking-tight">Camel Safari</h3>
               <p className="mt-2 text-sm text-white/80 uppercase tracking-wide leading-relaxed">
-                Lorem ipsum is simply dummy text of the printing and typesetting industry.
+                Slow-paced camel trek across golden dunes with photo stops and serene sunset views.
               </p>
             </div>
             <div className="relative h-full overflow-hidden rounded-xl border border-white/10 bg-white/5">
@@ -77,7 +77,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-lg font-semibold tracking-tight">Quad Bikes</h3>
               <p className="mt-2 text-sm text-white/80 uppercase tracking-wide leading-relaxed">
-                Lorem ipsum is simply dummy text of the printing and typesetting industry. It has been the industry&apos;s standard dummy text since the 1500s.
+                Ride powerful quad bikes on guided desert trails. Full safety briefing, helmets and gloves provided.
               </p>
             </div>
           </div>
@@ -90,16 +90,18 @@ export default function AboutSection() {
             Great Opportunity <span className="text-yellow-400">For</span> Adventure & Travel
           </h2>
           <p className="mt-4 max-w-2xl text-white/85">
-            Et labore harum non nobis quam molestias mollitia et corporis praesentium a laudantium
-            internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime
-            quasi aut ducimus illum aut optio quibusdam!
+            WellCare Desert Safari delivers unforgettable adventures across Dubai’s spectacular dunes.
+            From adrenaline‑pumping dune bashing in 4x4s to authentic Bedouin camp experiences with
+            live entertainment, we handle everything end‑to‑end — hotel pickup and drop‑off, expert
+            licensed guides, premium vehicles, and hygienic BBQ dinners with vegetarian options.
+            Your safety and comfort come first, so you can focus on making memories.
           </p>
 
           <ul className="mt-6 space-y-3 text-sm">
             {[
-              "Et labore harum non nobis ipsum eum molestias",
-              "Et labore harum non nobis ipsum eum molestias",
-              "Et labore harum non nobis ipsum eum molestias",
+              "Hotel pickup & drop‑off across Dubai",
+              "Licensed safari guides and fully insured vehicles",
+              "BBQ dinner, live shows, and veg/non‑veg options",
             ].map((item, idx) => (
               <li key={idx} className="flex items-start gap-3">
                 <span className="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-yellow-500/20 text-yellow-400">•</span>
