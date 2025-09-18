@@ -13,7 +13,7 @@ export default function HighlightsSection() {
             Exploration Of <span className="text-yellow-400">UAE</span> Highlights.
           </h2>
           <p className="mt-4 max-w-md text-white/80 uppercase tracking-wide leading-relaxed text-sm">
-            Discover Dubai's must‑see highlights with curated stops, photo opportunities, and
+            Discover Dubai&#39;s must‑see highlights with curated stops, photo opportunities, and
             comfortable transport — perfect for first‑time visitors and families.
           </p>
 

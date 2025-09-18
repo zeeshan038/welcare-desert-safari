@@ -2,14 +2,6 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const navItems = [
-    { href: "/", label: "Home" },
-    { href: "/#about", label: "About" },
-    { href: "/#services", label: "Services" },
-    { href: "/#gallery", label: "Gallery" },
-    { href: "/contact", label: "Contact" },
-];
-
 export default function Navbar() {
     const [open, setOpen] = useState(false);
     const [galleryOpen, setGalleryOpen] = useState(false);
@@ -151,7 +143,7 @@ export default function Navbar() {
                                         <Link href="/gallery/videos" onClick={() => { setOpen(false); setMobileGalleryOpen(false); }} className="px-3 py-2 rounded-md text-white/90 hover:text-white hover:bg-white/10 transition">Videos</Link>
                                     </div>
                                 )}
-                                <Link href="/contact" onClick={() => setOpen(false)} className="px-3 py-2 rounded-md text-white/90 hover:text-white hover:bg-white/10 transition">Contact</Link>
+
                             </nav>
                         </div>
                     </>

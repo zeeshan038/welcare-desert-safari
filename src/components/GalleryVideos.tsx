@@ -12,7 +12,7 @@ try {
       src: `/videos/${f}`,
       title: f.replace(/\.[^.]+$/, "").replace(/[-_]/g, " "),
     }));
-} catch (e) {
+} catch {
   localVideos = [];
 }
 

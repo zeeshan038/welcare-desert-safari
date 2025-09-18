@@ -13,7 +13,7 @@ try {
       src: `/images/${f}`,
       alt: f.replace(/\.[^.]+$/, "").replace(/[-_]/g, " "),
     }));
-} catch (e) {
+} catch {
   // fallback to an empty list if directory missing
   images = [];
 }
